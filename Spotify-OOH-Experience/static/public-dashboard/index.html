@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard Spotify</title>
+        <link rel="stylesheet" href="styleDashboard.css">
+    </head>
+    <body>
+
+        <h1 class="month-year">Mayo 2023</h1>
+        <h2 class="intro">OOH Diseño de experiencia digital</h2>
+
+        <img class="liveMoad" src="./assets/liveMoad.png" alt="">
+        <img class="notifications" src="./assets/notifications.png" alt="">
+        <img class="perfil" src="./assets/perfil.png" alt="">
+
+        <div class="menuBar"></div>
+        <img class="logo" src="./assets/logoSpotify.png" alt="">
+        <div class="buttonSelected"></div>
+        <button class="principalButton"></button>
+        <button class="leadsButton"></button>
+
+        <div class="lineChart"></div>
+        <h1 class="line-tittle">Leads por día</h1>
+        <div class="line-chart-container">
+            <canvas id="myLineChart"></canvas>
+        </div>
+
+        <div class="doughnutChart"></div>
+        <h1 class="doughnut-tittle">Filtros usados</h1>
+        <div class="doughnut-chart-container">
+            <canvas id="myDoughnutChart"></canvas>
+        </div>  
+        <div class="circleFilterBadBunny"></div>
+        <h2 class="infoBadBunny">Filtro de Bad Bunny</h2>
+        <div class="circleFilterRebelde"></div>
+        <h2 class="infoRebelde">Filtro de Rebelde</h2>
+        <div class="circleFilterFeid"></div>
+        <h2 class="infoFeid">Filtro de Feid</h2>
+
+        <section class="locationsChart"></section>
+        <h1 class="locations-tittle">Ubicaciones</h1>
+        <img class="chipichape" src="./assets/chipichape.png" alt="">
+        <div class="newShoppingCenter">
+        </div>
+        <h2 class="chipichape-connection">Conectado</h2>
+        <div class="circleChipichape-connection"></div>
+        <img class="unicentro" src="./assets/unicentro.png" alt="">
+        <h2 class="unicentro-interactions"><strong>2</strong> Interacciones</h2>
+        <h2 class="unicentro-connection">Desconectado</h2>
+        <div class="circleUnicentro-connection"></div>
+        <img class="jardinPlaza" src="./assets/jardinPlaza.png" alt="">
+        <h2 class="jardinPlaza-interactions"><strong>0</strong> Interacciones</h2>
+        <h2 class="jardinPlaza-connection">Desconectado</h2>
+        <div class="circleJardinPlaza-connection"></div>
+        <img class="unico" src="./assets/unico.png" alt="">
+        <h2 class="unico-interactions"><strong>0</strong> Interacciones</h2>
+        <h2 class="unico-connection">Desconectado</h2>
+        <div class="circleUnico-connection"></div>
+        <div class="locations-container"></div>
+            
+        <div class="leadsList"></div>
+        <h1 class="leads-tittle">Últimos 4 Leads</h1>
+        <div class="divTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                <tbody></tbody>
+            </thead>
+        </table>
+        </div>
+
+        <div class="goals"></div>
+        <h1 class="goals-tittle">Logros</h1>
+        <img class="star-totalInteractions" src="./assets/star.png" alt="">
+        <h2 class="totalInteractions"><strong>60,000</strong> Interacciones totales: </h2>
+        <div class="rectangle"></div>
+        <div class="newInteraction">
+        </div>
+        <img class="loading" src="./assets/loading.png" alt="">
+        <img class="star-totalSubscriptions" src="./assets/star.png" alt="">
+        <h2 class="totalSubscriptions"><strong>50,000</strong> subscripciones a Spotify Premium</h2>
+        <img class="infoGoals" src="./assets/infoGoals.png" alt="">
+        <div class="goals-container">
+        </div>
+
+        <script defer src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script defer src="chartView.js"></script>
+        <script defer src="controllerDB.js"></script>
+    </body>
+</html>

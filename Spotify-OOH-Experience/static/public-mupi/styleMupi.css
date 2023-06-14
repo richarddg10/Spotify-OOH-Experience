@@ -1,0 +1,61 @@
+#canva {
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background-color: aqua;
+}
+
+#clickInListo {
+    position: absolute;
+    display: none;
+}
+
+#clickInContinuar {
+    position: absolute;
+    display: none;
+}
+
+#cameraDiv {
+ position: absolute;
+}
+
+#badBunnyFilterPhoto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 650px;
+}
+
+#rebeldeFilterPhoto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 650px;
+}
+
+#feidFilterPhoto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 650px;
+}
+
+#photoSaved {
+    position: absolute;
+    top: 150px;
+    left: 109px;
+    width: 245px;
+    height: 345px;
+}
+
+.hidden {
+    display: none;
+}
+
+#canvasCamera {
+    width: 450px;
+    height: 650px;
+}

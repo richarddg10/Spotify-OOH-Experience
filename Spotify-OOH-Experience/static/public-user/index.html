@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Spotify</title>
+        <link rel="stylesheet" href="styleUser.css">
+    </head>
+    <body>
+        <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous"></script>
+                
+        <div id="canva">
+            <form id="user-form" method="post">
+
+                <label for="name"></label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="number"></label>
+                <input type="tel" id="number" name="number" required><br><br>
+
+                <label for="email"></label>
+                <input type="text" id="email" name="email" required><br><br>
+
+                <button id="send" type="button"></button>
+            </form>
+            
+            <p class="privacy-policy">Al presionar enviar estás de acuerdo con las políticas de privacidad.</p>
+        </div>
+
+        <script type="module" src="controllerUser.js"></script>
+    </body>
+</html>

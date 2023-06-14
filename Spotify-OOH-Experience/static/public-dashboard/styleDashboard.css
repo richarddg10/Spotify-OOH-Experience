@@ -1,0 +1,630 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 1430px;
+    height: 800px;
+    background: #202020;
+}
+
+.month-year {
+    position: absolute;
+    left: 307px;
+    top: 25px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.2298px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.intro {
+    position: absolute;
+    left: 307px;
+    top: 62px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.liveMoad {
+    position: absolute;
+    width: 147.63px;
+    height: 21.82px;
+    left: 1104.89px;
+    top: 47px;
+}
+
+.notifications {
+    position: absolute;
+    width: 43.92px;
+    height: 43.92px;
+    left: 1280.75px;
+    top: 36px;
+}
+
+.perfil {
+    position: absolute;
+    width: 43.92px;
+    height: 43.92px;
+    left: 1350.08px;
+    top: 36px;
+}
+
+.logo {
+    position: absolute;
+    width: 188.42px;
+    height: 56.53px;
+    left: 61px;
+    top: 70.51px;
+}
+
+.principalButton {
+    position: absolute;
+    width: 101.41px;
+    height: 15.81px;
+    left: 97px;
+    top: 191px;
+    background-image: url('./assets/principalButton.png');
+    border: none;
+    background-color: transparent;
+}
+
+.leadsButton {
+    position: absolute;
+    width: 76.41px;
+    height: 12px;
+    left: 98px;
+    top: 244px;
+    background-image: url('./assets/leadsButton.png');
+    border: none;
+    background-color: transparent;
+}
+
+.buttonSelected {
+    position: absolute;
+    width: 161.54px;
+    height: 43.59px;
+    left: 74px;
+    top: 176.92px;
+    background: #1D1D1D;
+    border: 1.28207px solid rgba(255, 255, 255, 0.433);
+    border-radius: 15.7016px;
+}
+
+.menuBar {
+    position: absolute;
+    width: 237px;
+    height: 728px;
+    left: 36px;
+    top: 36px;
+    background-image: url('./assets/menuBar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 19.231px;
+}
+
+.line-tittle {
+    position: absolute;
+    left: 336.31px;
+    top: 164px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5509px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/* .myLineChart {
+    width: 500px;
+} */
+
+.line-chart-container {
+    position: absolute;
+    left: 336.31px;
+    top: 210px;
+    width: 490px;
+    height: 400px;
+    font-size: 11.7306px;
+    font-family: 'Gotham';
+}
+
+.lineChart {
+    position: absolute;
+    width: 543px;
+    height: 325px;
+    left: 309px;
+    top: 151px;
+    background-image: url('./assets/lineChartBar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 23.9031px;
+}
+
+.doughnut-tittle {
+    position: absolute;
+    left: 915px;
+    top: 164px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5509px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.doughnut-chart-container {
+    position: absolute;
+    left: 945px;
+    top: 218px;
+    width: 220px;
+    height: 150px;
+    font-size: 11.7306px;
+    font-family: 'Gotham';
+}
+
+.circleFilterBadBunny {
+    position: absolute;
+    left: 915px;
+    top: 390px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #000000;
+}
+
+.infoBadBunny {
+    position: absolute;
+    left: 938px;
+    top: 384px;
+    font-size: 10px;
+    font-family: 'Gotham';
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.circleFilterRebelde {
+    position: absolute;
+    left: 915px;
+    top: 412.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #ff0000;
+}
+
+.infoRebelde {
+    position: absolute;
+    left: 938px;
+    top: 406.5px;
+    font-size: 10px;
+    font-family: 'Gotham';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.circleFilterFeid {
+    position: absolute;
+    left: 915px;
+    top: 435px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #1ED760;
+}
+
+.infoFeid {
+    position: absolute;
+    left: 938px;
+    top: 429px;
+    font-size: 10px;
+    font-family: 'Gotham';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.doughnutChart {
+    position: absolute;
+    width: 264px;
+    height: 325px;
+    left: 888px;
+    top: 151px;
+    background-image: url('./assets/doughnutChartBar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 23.9031px;
+}
+
+.locations-tittle {
+    position: absolute;
+    left: 1215px;
+    top: 164px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5509px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.chipichape {
+    position: absolute;
+    width: 44px;
+    height: 43px;
+    left: 1216px;
+    top: 212px;
+    border-radius: 4.13773px;
+}
+
+h4 {
+    position: absolute;
+    left: 1267px;
+    top: 202px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.5386px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.chipichape-connection {
+    position: absolute;
+    left: 1267px;
+    top: 222px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 11.5386px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.circleChipichape-connection {
+    position: absolute;
+    width: 5.79px;
+    height: 5.79px;
+    left: 1333px;
+    top: 237px;
+    border-radius: 100%;
+    background: #1ED760;
+}
+
+.unicentro {
+    position: absolute;
+    width: 44px;
+    height: 42px;
+    left: 1216px;
+    top: 276px;
+    border-radius: 4.13773px;
+}
+
+.unicentro-interactions {
+    position: absolute;
+    left: 1267px;
+    top: 272.18px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5386px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.unicentro-connection {
+    position: absolute;
+    left: 1267px;
+    top: 286.28px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 11.5386px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.circleUnicentro-connection {
+    position: absolute;
+    width: 5.79px;
+    height: 5.79px;
+    left: 1353px;
+    top: 301px;
+    border-radius: 100%;
+    background: #D71E1E;
+}
+
+.jardinPlaza {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 1216px;
+    top: 339px;
+    border-radius: 4.13773px;
+}
+
+.jardinPlaza-interactions {
+    position: absolute;
+    left: 1267px;
+    top: 335px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5386px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.jardinPlaza-connection {
+    position: absolute;
+    left: 1267px;
+    top: 349.11px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 11.5386px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.circleJardinPlaza-connection {
+    position: absolute;
+    width: 5.79px;
+    height: 5.79px;
+    left: 1353px;
+    top: 364px;
+    border-radius: 100%;
+    background: #D71E1E;
+}
+
+.unico {
+    position: absolute;
+    width: 44px;
+    height: 42px;
+    left: 1216px;
+    top: 404px;
+    border-radius: 4.14px;
+}
+
+.unico-interactions {
+    position: absolute;
+    left: 1267px;
+    top: 400px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5386px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.unico-connection {
+    position: absolute;
+    left: 1267px;
+    top: 414.11px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 11.5386px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.circleUnico-connection {
+    position: absolute;
+    width: 5.79px;
+    height: 5.79px;
+    left: 1353px;
+    top: 429px;
+    border-radius: 100%;
+    background: #D71E1E;
+}
+
+.locationsChart {
+    position: absolute;
+    width: 206px;
+    height: 325px;
+    left: 1188px;
+    top: 151px;
+    background-image: url('./assets/locationBar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 23.9031px;
+}
+
+.leads-tittle {
+    position: absolute;
+    left: 336px;
+    top: 525px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5509px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.divTable {
+    position: absolute;
+    overflow-x: auto;
+    padding: 10px;
+    left: 327px;
+    top: 562.5px;
+    width: 600px;
+    color: white;
+    font-family: 'Gotham';
+    font-weight: lighter;
+}
+
+.divTable th, .divTable td {
+    text-align: left;
+    font-size: 12px;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+.divTable th {
+    color: #1ED760;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.divTable table {
+    border-collapse: collapse;
+    width: 485px;
+}
+
+tr {
+    gap: 10px;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* table {
+    position: absolute;
+    left: 336px;
+    top: 570px;
+    width: 100px;
+    color: white;
+    font-size: 11px;
+    font-family: 'Gotham';
+    font-weight: lighter;
+} */
+
+/* tr {
+    display: flex;
+    align-items: center;
+    width: 482px;
+    height: 32px;
+    gap: 10px;
+    border-bottom: 1px solid #A4A3AA;
+} */
+  
+/* td {
+    display: flex;
+    justify-content: left;
+    width: 180px;
+} */
+
+.leadsList {
+    position: absolute;
+    width: 543px;
+    height: 252px;
+    left: 309px;
+    top: 512px;
+    background-image: url('./assets/leads4Bar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 23.9031px;
+}
+
+.goals-tittle {
+    position: absolute;
+    left: 909px;
+    top: 525px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5509px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.star-totalInteractions {
+    position: absolute;
+    width: 10.38px;
+    height: 10px;
+    left: 909px;
+    top: 587px;
+}
+
+.totalInteractions {
+    position: absolute;
+    left: 923px;
+    top: 577px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: absolute;
+    left: 1126.5px;
+    top: 570px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 11px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle {
+    position: absolute;
+    width: 57.69px;
+    height: 26.92px;
+    left: 1108px;
+    top: 579px;
+    background: #1ED760;
+    border: 2px solid #FFFFFF;
+    border-radius: 2.56413px;
+}
+
+.loading {
+    position: absolute;
+    width: 26.72px;
+    height: 26.72px;
+    left: 1175px;
+    top: 579px;
+}
+
+.star-totalSubscriptions {
+    position: absolute;
+    width: 10.38px;
+    height: 10px;
+    left: 909px;
+    top: 627px;
+}
+
+.totalSubscriptions {
+    position: absolute;
+    left: 923px;
+    top: 617px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.infoGoals {
+    position: absolute;
+    width: 466.67px;
+    height: 61.54px;
+    left: 919px;
+    top: 674px;
+}
+
+.goals {
+    position: absolute;
+    width: 506px;
+    height: 252px;
+    left: 888px;
+    top: 512px;
+    background-image: url('./assets/goalsBar.png');
+    border: none;
+    background-color: transparent;
+    border-radius: 23.9031px;
+}

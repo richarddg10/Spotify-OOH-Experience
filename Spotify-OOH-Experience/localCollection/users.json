@@ -1,0 +1,282 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Richard Delgado",
+      "email": "richardelgado145@gmail.com",
+      "number": "3158357310",
+      "leadDate": "Lunes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 2,
+      "name": "Santiago Velasco",
+      "email": "santiv@gmail.com",
+      "number": "3108391210",
+      "leadDate": "Lunes",
+      "shoppingCenter": "Unicentro",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 3,
+      "name": "Andres SantaCruz",
+      "email": "andress1@gmail.com",
+      "number": "3255391010",
+      "leadDate": "Martes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 4,
+      "name": "Santiago Gomez",
+      "email": "santim05@gmail.com",
+      "number": "3157095109",
+      "leadDate": "Miércoles",
+      "shoppingCenter": "Unicentro",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 5,
+      "name": "Juan José Gomez",
+      "email": "jjgomez20@gmail.com",
+      "number": "3058915510",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 6,
+      "name": "Camilo Ospina",
+      "email": "camiospina@gmail.com",
+      "number": "3107001010",
+      "leadDate": "Lunes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 7,
+      "name": "Juan Manuel Lopez",
+      "email": "juanmalp27@gmail.com",
+      "number": "3005552397",
+      "leadDate": "Lunes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 8,
+      "name": "Sofia Gonzalez",
+      "email": "sgonzales@gmail.com",
+      "number": "3102021021",
+      "leadDate": "Miércoles",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 9,
+      "name": "Juan Felipe Lopez",
+      "email": "juanfelipelop@gmail.com",
+      "number": "3215768901",
+      "leadDate": "Miércoles",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 10,
+      "name": "Luisa Castillo",
+      "email": "lucastillo@gmail.com",
+      "number": "3198213421",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 11,
+      "name": "Carlos Alvarez",
+      "email": "calvarez9@gmail.com",
+      "number": "3214567329",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 12,
+      "name": "Steven Guerra",
+      "email": "stevguerra@gmail.com",
+      "number": "3005679870",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 13,
+      "name": "Laura Gomez",
+      "email": "laugomez@gmail.com",
+      "number": "3104558934",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 14,
+      "name": "Camila Carrillo",
+      "email": "camilacarrillo@gmail.com",
+      "number": "3214532100",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 15,
+      "name": "Andres Marquez",
+      "email": "andresmarq21@gmail.com",
+      "number": "300121500",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 16,
+      "name": "Julian Ordoñez",
+      "email": "julordoñez@gmail.com",
+      "number": "3005009021",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 17,
+      "name": "Martin Garces",
+      "email": "martingss@gmail.com",
+      "number": "3007509045",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 18,
+      "name": "Juan Camilo Perez",
+      "email": "jcperez@gmail.com",
+      "number": "3105802130",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 19,
+      "name": "Juan José Martinez",
+      "email": "martinezjuanj@gmail.com",
+      "number": "3509085031",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 20,
+      "name": "David Lopez",
+      "email": "davidlopez1@gmail.com",
+      "number": "3213005021",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 21,
+      "name": "Sandra Alzate",
+      "email": "sandraalzate21@gmail.com",
+      "number": "3107069050",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 22,
+      "name": "Simón Martinez",
+      "email": "simmartinez@gmail.com",
+      "number": "3055011005",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 23,
+      "name": "Cesar Garzón",
+      "email": "cesarg9@gmail.com",
+      "number": "3005003121",
+      "leadDate": "Jueves",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 24,
+      "name": "Harold Delgado",
+      "email": "harolddelgado@gmail.com",
+      "number": "3195763135",
+      "leadDate": "Viernes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "feidFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 25,
+      "name": "Santiago Gómez",
+      "email": "Santigomelo05@gmail.com",
+      "number": "3217289196",
+      "leadDate": "Viernes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "badBunnyFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 26,
+      "name": "Juan Camilo Dorado",
+      "email": "jcdorado@gmail.com",
+      "number": "3104668890",
+      "leadDate": "Viernes",
+      "shoppingCenter": "Chipichape",
+      "filterUsed": "rebeldeFilter",
+      "privacyAgreement": true
+    },
+    {
+      "id": 27,
+      "name": "David ",
+      "email": "",
+      "number": "534",
+      "leadDate": "Viernes",
+      "shoppingCenter": "Chipichape",
+      "privacyAgreement": true
+    },
+    {
+      "id": 28,
+      "name": "José David Giraldo M",
+      "email": "josedavidgm1995@gmail.com",
+      "number": "2134567989",
+      "leadDate": "Viernes",
+      "shoppingCenter": "Chipichape",
+      "privacyAgreement": true
+    }
+  ]
+}
